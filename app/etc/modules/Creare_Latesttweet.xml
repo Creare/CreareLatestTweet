@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Creare_Latesttweet>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Creare_Latesttweet>
+    </modules>
+</config>

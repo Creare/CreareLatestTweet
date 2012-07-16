@@ -1,0 +1,26 @@
+<?php
+/*
+* Latest Tweet Extension by E-Commerce Web Design (http://www.e-commercewebdesign.co.uk)
+* 
+*
+*/
+?>
+<?php if($this->isEnabled() && $tweets = $this->getLatestTweets()): ?>
+<div class="block">
+	<div class="block-title creare-tweet-bg">
+        <strong>
+            <span class="creare-tweet-title">Latest Tweet</span>
+        </strong>
+    </div>
+    <div class="block-content">
+        <ul class="creare-tweet">
+            <?php foreach($tweets as $tweet): ?>
+            <li>
+                <?php echo $tweet["tweet"]; ?>
+                <span><?php echo $tweet["time"]; ?></span>
+            </li>
+            <?php endforeach; ?>
+        </ul>
+    </div>
+</div>
+<?php endif; ?>

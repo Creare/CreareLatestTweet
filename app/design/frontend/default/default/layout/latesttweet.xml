@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout version="0.1.0">
+	<default>
+		<reference name="head">
+			<action method="addCss"><stylesheet>css/latesttweet.css</stylesheet></action>
+		</reference>
+	
+		<reference name="right">
+			<block type="latesttweet/latesttweet" name="latesttweet" before="-" template="latesttweet/tweet.phtml" />
+		</reference>
+	</default>
+</layout>

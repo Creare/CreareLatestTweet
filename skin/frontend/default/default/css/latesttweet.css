@@ -1,0 +1,5 @@
+.creare-tweet-title { color: #33ccff!important; }
+.creare-tweet-bg { background: url('../images/latesttweet/tweet.gif') top right no-repeat #F8F7F5!important; }
+.creare-tweet { padding: 5px; }
+.creare-tweet li { border-bottom: 1px bottom #bcbcbc; border-top: 1px solid #d5d5d5; padding: 5px 0; }
+.creare-tweet li span { display: block; font-size: 0.8em; font-style:italic; }
